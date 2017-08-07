@@ -1,4 +1,12 @@
-// include SPI, MP3 and SD libraries
+/*
+ * Remotely controllable Boomy the Boombox.
+ * Sketch is based on examples from Adafruit, ESP8266WebServer among others.
+ * 
+ * Portions written by Joshua Benuck are distributed under the MIT license.
+ * 
+ * Other portions subject to their original license which includes at least
+ * LGPL components (from the ESP8266WebServer example).
+ */
 #include <SPI.h>
 #include <SdFat.h>
 SdFat SD;
