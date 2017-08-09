@@ -246,10 +246,7 @@ void press8() { playTrack(8); }
 
 void press9() { playTrack(9); }
 
-void press0() {
-  printDirectory(SD.open("/"), 0);
-  Serial.println(WiFi.localIP());
-}
+void press0() { playTrack(0); }
 
 // Settings
 
